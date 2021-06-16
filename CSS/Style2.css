@@ -1,0 +1,125 @@
+body{
+    margin: 20px;
+	padding: auto;
+	background-color:rgba(146, 255, 112, 0.4);
+}
+header {
+	background-color: #6a793f;
+	background-image: url("images/flywheel.jpg");
+	background-size:100%;
+	padding: 20px;
+    height: 155px;
+    
+}
+p{
+    padding-left: 10px;
+}
+nav a{
+	display: inline-block;
+	margin: 0.0%;
+	margin-left: 85px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 3;
+	-moz-border-radius: 3;
+	-o-border-radius: 3;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 1.8%;
+	color: #000000;
+	text-align: center;
+    background-color: rgba(218,234,213,0.60);
+	width:150px;
+	height: 10px;
+    font-size: 150%;
+	line-height: 10px;
+   
+  
+}
+
+.active {
+	background-color: #FFFFFF;
+    color: blue;
+}
+
+nav a:hover {
+	background-color: #ccc7c7;
+    color: rgb(0, 151, 63);
+}
+
+.left {
+	background-color: #68811d;
+	width: 20%;
+	float:left;
+	padding: 1% 0;
+}
+
+.right {
+	width:75%;
+	display: inline-block;
+	padding-left: 2%;
+}
+
+.left img {
+	border: solid 3px #000000;
+	width: 70%;
+	margin: 5%;
+	margin-left: 14%;
+	margin-bottom: 10px;
+	margin-top: 25px;
+}
+h1{
+    text-align: center;
+	color: #FFFFFF;
+	font-size:30px;
+	text-transform: uppercase;
+    margin-top: 20px;
+}
+h2{
+    margin-left: 10px;
+}
+table {
+	border-collapse: collapse;
+	   width:90%;
+	   height: 95%;
+	   font-family: "Times New Roman", Times, serif;
+	   font-weight: bold;
+	   font-size: 80%;
+	margin-left: 35px;
+}
+
+th {
+	background: #808000;
+	background: -moz-linear-gradient(top, #808000 0%, #038a3b 100%);
+	background: -webkit-linear-gradient(#808000 0%, #038a3b 100%);
+	background: -o-linear-gradient(#808000 0%, #038a3b 100%);
+	background: linear-gradient(#808000 0%, #038a3b 100%); 
+	color: rgb(255, 255, 255, 0.8); 
+	border: 2px solid #FFFFFF; 
+	background-repeat: no-repeat;
+}
+
+td {
+	background: rgba(141, 214, 119, 0.4); 
+	color: #423f3f; 
+	border: 2px solid #FFFFFF;
+	text-align: center;
+}
+
+table, td, th {
+	
+	padding: 1%;
+}
+
+tr th:first-child, tr td:first-child {
+	text-align: left;
+}
+
+tr td {
+	opacity: 0.8;
+}
+
+tr td:hover {
+	opacity: 2.5;
+	text-align: center;
+	font-size: 120%;
+}
